@@ -1,0 +1,21 @@
+# Ignorar archivos compilados de Java
+*.class
+
+# Ignorar archivos de sistema de Windows
+Thumbs.db
+desktop.ini
+
+# Ignorar archivos de sistema de Mac (por si lo abrís en otra compu)
+.DS_Store
+
+# Ignorar logs temporales
+*.log
+
+# Archivos de IDE
+*.iml
+.idea/
+.vscode/
+
+# Carpetas de compilación y logs
+target/
+bin/
