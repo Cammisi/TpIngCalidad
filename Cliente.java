@@ -7,6 +7,7 @@ public class Cliente {
    private String mail;
    private String direccion;
    private String nombre;
+   private String apellido;
    Coordenada coordenadas;
 
     public Cliente(String id, long cuit, String mail, String direccion, String nombre, Coordenada coordenadas) {
