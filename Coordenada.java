@@ -54,6 +54,16 @@ public class Coordenada {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
+    
+    @Override
+    public String toString() {
+        return "Coordenada{" +
+                "latitud=" + latitud +
+                ", longitud=" + longitud +
+                ", altitud=" + altitud +
+                ", descripcion='" + descripcion + '\'' +
+                '}';
+    }
 }
     
 
