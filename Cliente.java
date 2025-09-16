@@ -6,17 +6,19 @@ public class Cliente {
    private long cuit;
    private String mail;
    private String direccion;
+   private String altura;
    private String nombre;
    private String apellido;
    Coordenada coordenadas;
 
-    public Cliente(String id, long cuit, String mail, String direccion, String nombre, Coordenada coordenadas) {
+    public Cliente(String id, long cuit, String mail, String direccion, String altura , String nombre, Coordenada coordenadas) {
         this.id = id;
         this.cuit = cuit;
         this.mail = mail;
         this.direccion = direccion;
         this.nombre = nombre;
         this.coordenadas = coordenadas;
+        this.altura = altura;
     }
    
     public Cliente(){
